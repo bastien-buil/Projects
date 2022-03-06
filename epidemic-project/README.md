@@ -1,6 +1,6 @@
 [<img src="https://www.ensicaen.fr/wp-content/uploads/2017/02/LogoEnsicaen.gif" width="256" >](https://www.ensicaen.fr)
 # Projet Epidemie
-## CHAID-AKACEM Jasmine, BUIL Bastien, HAMMAMI Sonia et BUFFLER Hugo
+## C**** J*****, BUIL Bastien, H***** S***** et B****** H******
 
 ![illustration du projet](images/apercu.png)
 
