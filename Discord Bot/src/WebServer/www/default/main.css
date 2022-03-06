@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "Markazi Text"; 
+    src: url("fonts/MarkaziText-Regular.ttf") format('opentype');
+}
+
+@font-face {
+    font-family: 'Discord'; 
+    src: url('fonts/Discord.ttf') format('opentype');
+}
+
+html{
+	background-color: #202225;
+	color: #CE020A;
+	font-family: 'Markazi Text';
+	font-size: 42px;
+	text-align: center;
+}
+
+h1{
+	font-weight: normal;
+}
+
+a{
+	color: inherit;
+	text-decoration: inherit;
+}
+
+.discord{
+	color: #7289DA;
+    font-family: 'Discord'; 
+	font-size: 40px;
+	
+}
+
+.container{
+	display: flex;
+	
+}
+
+.container div{
+	flex: 1;
+}
+
+
+.bar{
+	background-color: #0B0B0B;	
+	display: flex;
+	justify-content: flex-end;
+	position: absolute;
+	top: 0px;
+	right: 0;
+	left:0;
+}
+
+.barElement{
+	display: block;
+	padding: 0px 15px;
+	/*border-right: 1px solid blue;*/
+	
+}

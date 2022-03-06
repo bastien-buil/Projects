@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">RSSDisplay</string>
+    <string name="image_precedente">Précédent</string>
+    <string name="image_suivante">Suivant</string>
+    <string name="test_image_title"> </string>
+    <string name="test_image_date"> </string>
+    <string name="description_image"> </string>
+    <string name="test_image_description"> </string>
+    <string name="actuality">Actualités</string>
+    <string name="economy">Economie</string>
+    <string name="sport">Sport</string>
+    <string name="reload_news">Reload News</string>
+    <string name="testForScoll">"Ceci est une démonstration d'une application se connectant à internet, récupérant le flux RSS du monde et récupérant le texte et les images contenus dans le flux. Ce texte sert aussi à démontrer que l'application s'adapte à de long texte grâce à une scroll view. "</string>
+</resources>
