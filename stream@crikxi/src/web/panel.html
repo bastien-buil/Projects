@@ -1,0 +1,127 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+    <style type="text/css" media="all">
+	body {
+		margin: 0;
+        background-color: gray;
+		min-width: 200px;
+		overflow-x:hidden;	
+    }
+	
+	.streamsList div:hover {
+		background-color: #ddd;
+	}
+	
+	.streamsList .deleteMode {
+		color: #FE2E2E; //DF0101
+	}	
+	
+	  
+	.streamsList div{
+		margin-top:1px;
+		position: relative;
+		cursor: pointer;
+	}
+	
+		
+	img{
+		height: 2em;
+		width: 2em;
+		vertical-align: middle;
+	}
+
+	
+
+	
+	/*#actions img:hover{
+		background-color: #666;	
+	}*/
+	
+	
+	
+	#actions{
+		display: flex;
+		justify-content: space-between;
+		background-color: #555;	
+		padding: 10px;
+	}
+
+	#addStreamError{
+		color:red;
+		display: none;
+	}
+	
+	#addStream{
+	    text-align: center;
+		display: none;
+		padding: auto;
+	}
+
+	
+	#addStream label{
+		display: block;
+		width: 4em;
+		float: left;
+	}
+	
+	#addStream h1{
+		text-align: center;
+		margin: 0px;
+	}
+	
+	
+	
+    </style>
+  </head>
+<body >
+    <div id="addStream">
+		<form >	
+			<h1>Stream</h1>
+			<div id="addStreamError">
+				
+			</div>
+			<div>
+				<label for="addStreamName">Nom:</label>
+				<input type="text" id="addStreamName"/>
+			</div>
+			<div>
+				<label for="addStreamLink">Lien:</label>
+				<input type="text" id="addStreamLink"/>
+			</div>
+			<div>
+				<label for="addStreamType">Type:</label>
+				<select id="addStreamType">
+					<option value="0">Dailymotion</option>
+					<option value="1">Twitch</option>
+					<option value="2">Smashcast</option>
+					<option value="3">Youtube</option>
+					<!--<option value="4">Leveldown</option>-->
+					<optgroup label="Sensitive Source" id="sensitiveStreamSource" style="display:none">
+						<option value="5">Chaturbate WIP</option>
+						<option value="6">Cammodels.com WIP</option>
+						<option value="7">MyFreeCams.com WIP</option>
+					</optgroup>
+				</select> 
+			</div>
+			<div>
+				<label for="addStreamInfo">Info (id):</label>
+				<input type="text" id="addStreamInfo"/>
+			</div>
+			<div>
+				<input type="button" value="Valider" id="addStreamValidate"/> <input type="button" value="Auto" id="addStreamAuto"/>
+				<input type="button" value="Clear" id="clearStreamAuto"/>
+			</div>
+		</form>	
+	</div>
+	
+	<div id="main">
+		<div id="actions"></div>
+		<div id="streamsList">
+		<div class="streamsList" id="streamsListOnline"></div>
+		<div class="streamsList" id="streamsListOffline"></div>
+		</div>
+	</div>
+	<script src="panel.js"></script>
+</body>
+</html>

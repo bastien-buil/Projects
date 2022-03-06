@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/reloadNews"
+        android:icon="@android:drawable/stat_notify_sync"
+        android:title="@string/reload_news"
+        app:showAsAction="always"></item>
+    <item
+        android:id="@+id/actualityButton"
+        android:title="@string/actuality" />
+    <item
+        android:id="@+id/sportButton"
+        android:title="@string/sport" />
+    <item
+        android:id="@+id/economyButton"
+        android:title="@string/economy" />
+</menu>

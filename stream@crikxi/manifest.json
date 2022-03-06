@@ -1,0 +1,26 @@
+{
+
+	"manifest_version": 2,
+	"name": "StreamsAlert",
+	"version": "2.0.0",
+	"description": "Vous alertes quand un stream commence.",
+	"browser_action": {
+		"browser_style": true,
+		"default_icon": "data/buttonTools.png",
+		"default_title": "StreamsAlert",
+		"default_popup": "src/web/panel.html"
+	},
+	"permissions": ["storage", "notifications", "tabs","*://*.chaturbate.com/*", "*://www.googleapis.com/*", "identity", "*://profiles.myfreecams.com/*"],
+	"background": {
+		"page": "src/background/background.html"
+	},
+	"options_ui": {
+		"page": "src/web/options.html"
+	},
+	"applications": {
+		"gecko": {
+			"id": "{79cf76d1-25f0-4847-b2ad-6c5d0a070a8d}",
+			"strict_min_version": "59.0"
+		}
+	}
+}

@@ -1,0 +1,10 @@
+
+node_modules/
+
+mongo/
+
+db/
+
+src/WebServer/privkey\.pem
+
+src/WebServer/cert\.pem
