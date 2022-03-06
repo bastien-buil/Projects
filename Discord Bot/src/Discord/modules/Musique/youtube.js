@@ -5,6 +5,7 @@ const request = require.main.require("./utils/request");
 const Module = require.main.require("./Discord/class/Module");
 
 const ytdl = require("ytdl-core");
+const YOUTUBE_API_KEY = "";
 
 module.exports = new class YoutubeModule extends Module{
 	constructor(){
@@ -94,7 +95,7 @@ module.exports = new class YoutubeModule extends Module{
 	}
 	
 	searchYtb(guildId, name, callback){	
-		request("https://www.googleapis.com/youtube/v3/search?type=video&maxResults=1&part=snippet&key=AIzaSyCRxhX8tui3WoPPcRbajkVbDY2oWr0xop4&q=" + name, (info)=>{
+		request("https://www.googleapis.com/youtube/v3/search?type=video&maxResults=1&part=snippet&key=" + YOUTUBE_API_KEY + "&q=" + name, (info)=>{
 			if(info["type"] == "loaded"){
 				var response = JSON.parse(info["body"]);
 				if(response["items"].length == 0){
