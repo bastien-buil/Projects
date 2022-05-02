@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/gridsFiles">
+        <file>grids/6_easy.txt</file>
+        <file>grids/6_hard.txt</file>
+        <file>grids/8_easy.txt</file>
+        <file>grids/8_hard.txt</file>
+        <file>grids/10_easy.txt</file>
+        <file>grids/10_hard.txt</file>
+    </qresource>
+    <qresource prefix="/iconsFiles">
+        <file>icons/gnu.png</file>
+        <file>icons/tux.png</file>
+    </qresource>
+    <qresource prefix="/translations"/>
+    <qresource prefix="/translation">
+        <file>ProjetTakuzu_fr-FR.qm</file>
+    </qresource>
+</RCC>
