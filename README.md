@@ -1,7 +1,6 @@
 # Presentation
 
 This repo contains a mix of school projects and personal projects made by BUIL Bastien.
-You can find my CV on [https://buil-bastien.fr/](https://buil-bastien.fr).
 
 
 # Projects
