@@ -1,5 +1,13 @@
 # Takuzu GNU/Linux
 
+The project is a video game in C++ with Qt based on the game [Takuzu](https://fr.wikipedia.org/wiki/Takuzu). 
+
+The principle of the game is to fill in a grid with two kinds of symbols while respecting:
+- in each line and column, there must be the same number of the two symbols,
+- all lines and columns must be different,
+- no more than 2 identical numbers side by side.
+
+
 ### Authors: Bastien Buil - J****** C**** A*****
 
 ## Project content
