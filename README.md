@@ -54,3 +54,6 @@ RSS Display is an Android app made in Java, that display news feed from [Le Mond
 The App uses a database to support offline use.
 
 
+### Project Takuzu
+
+The project is a video game made in C++ with Qt based on the game [Takuzu](https://fr.wikipedia.org/wiki/Takuzu).
